@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>This is CSS Task-1</title>
+  <style>
+     /* Styles for the vertical navigation bar */
+     .vertical {
+        float:left;
+        
+        
+        border: 5px solid white;
+        margin-right: 30px; /* Add some margin to separate it from the horizontal bar */
+      }
+
+     .vertical ul{
+      width:175px;
+      margin-left:3px;
+      list-style-type: none;
+      padding-left:5px;
+      padding-top: 7px;
+      padding-right:7px;
+      border: 1px solid black;
+
+      }
+      
+     .vertical li a{
+        display:block;
+        text-decoration:none;
+        padding:10px;
+        color:blue;
+        background:lightblue;
+        
+      }
+      .vertical li a:hover{
+        background-color:orange;
+        color: white;
+        
+      }
+      #id1{
+        background-color:orange;
+        color: white;
+      }
+      .horizontal {
+  border: 1px solid black;
+  padding-left:10px ; 
+
+  width: 450px;
+  overflow: hidden;
+}
+
+
+
+      /* Styles for the horizontal navigation bar */
+      
+      .horizontal ul{
+            list-style-type:none;
+            padding:0;
+           
+            background: lightgrey;
+            width:450px;
+            text-align:center;
+            overflow:hidden;
+            border: 1px solid white;
+           
+          
+          }
+         
+       .horizontal li a{
+          float:left;
+          border-right:1px solid blue;
+          color:blue;
+          display:block;
+          text-decoration:none;
+          padding :15px 15px;
+           text-align:center;
+           
+            
+           
+       }
+        .horizontal  li a:hover{
+            background-color:grey;
+            color:white;
+        }
+        #id2{
+          background-color:grey;
+            color:white;
+        }
+      h5 {
+        font-family: Calibri;
+        margin-left:auto;
+        margin-left:20px;
+        margin-Bottom:10px;
+      }
+     
+  </style>
+</head>
+<body>
+<h5 >   Vertical Navigation Bar</h5>
+  <div class="vertical">
+  
+  <ul>
+    
+    <li><a href="#" id="id1">Home</a></li>
+    <li><a href="#">Java</a></li>
+    <li><a href="#">CSS</a></li>
+    <li><a href="#">HTML</a></li>
+    <li><a href="#">Bootstrap</a></li>
+  </ul>
+
+</div>
+   <h5>Horizontal Navigation Bar</h5>
+  <div class="horizontal">
+   
+    <ul>
+      <li><a href="#" id="id2">Home</a></li>
+      <li><a href="#">Java</a></li>
+      <li><a href="#">HTML</a></li>
+      <li><a href="#">CSS</a></li>
+      <!-- Add more horizontal links here -->
+    </ul>
+  
+  </div>
+</body>
+</html>
